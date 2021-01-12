@@ -1,0 +1,9 @@
+version: "3.3"
+services:
+  rsBot:
+    image: krissrex/rs-bot
+    environment:
+      # Modify the values in the .env file
+      DISCORD_BOT_TOKEN: ${DISCORD_BOT_TOKEN}
+      WOLFRAM_ALPHA_APP_ID: ${WOLFRAM_ALPHA_APP_ID} 
+
